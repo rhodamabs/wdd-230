@@ -1,0 +1,54 @@
+[
+	{
+		"name" : "Accra Ghana Temple",
+		"dedicationDate" :"11 January 2004",
+		"telephone" :"(233) 302-650-123",
+		"url" :"https://www.churchofjesuschrist.org/temples/details/accra-ghana-temple?lang=eng",
+
+		"location" :"Accra Ghana Temple Complex 57 Independence Ave, North Ridge P.M.B. CT 209, Cantonments, Accra, Ghana",
+		"services":["No clothing rental available", "No cafeteria available", "Patron housing available ","Distribution center nearby"],
+		"templeClosure":["Saturday, 20 August 2022","Tuesday, 13 September 2022 - Monday, 26 September 2022","Sunday, 25 December 2022 - Monday, 26 December 2022"]
+	},
+	{
+		"name" : "Adelaide Australia Temple",
+		"dedicationDate" :"15 June 2000",
+		"telephone" :"(61) 8-8363-8000",
+	
+		"url" :"https://www.churchofjesuschrist.org/temples/details/adelaide-australia-temple?lang=eng",
+		"location" :"53-59 Lower Portrush Rd Marden SA 5070 Australia",
+		"services": ["No clothing rental available","No cafeteria available","No patron housing available","No distribution center nearby"]
+	},
+	{
+		"name" : "Johannesburg South Africa Temple",
+		"dedicationDate" :"24 August 1985",
+		"telephone" :"(27) 11-645-1540",
+		"url" :"https://www.churchofjesuschrist.org/temples/details/johannesburg-south-africa-temple?lang=eng",
+		"location" :"7 Jubilee Rd Parktown Johannesburg, 2193, South Africa",
+		"services": ["Clothing rental available","No cafeteria available","Patron housing available","Distribution center nearby"]
+	},
+	{
+		"name" :"Durban South Africa Temple",
+		"dedicationDate" :"16 February 2020",
+		"telephone" :"(27) 31-140-0240",
+		"url" :"https://www.churchofjesuschrist.org/temples/details/durban-south-africa-temple?lang=eng",
+		"location" :"2 Izinga Drive Izinga Ridge Umhlanga, KwaZulu-Natal, 4021, South Africa",
+		"services": ["No clothing rental available"," No cafeteria available", "Patron housing available","Distribution center nearby"]
+		
+	},
+	{   
+	    "name" :"Atlanta Georgia Temple",
+		"dedicationDate" :"1 May 2011",
+		"telephone" :"(1) 770-393-3698",
+		"url" :"https://www.churchofjesuschrist.org/temples/details/atlanta-georgia-temple?lang=eng",
+		"location" :"6450 Barfield Rd NE Sandy Springs GA 30328-4283United States",
+		"services" :["No clothing rental available"," No cafeteria available"," Patron housing available", "Distribution center nearby"]
+	},
+	{
+		"name" :"Boise Idaho Temple",
+		"dedicationDate" :"18 November 2012",
+		"telephone" :"(1) 208-322-4422",
+		"url" :"https://www.churchofjesuschrist.org/temples/details/boise-idaho-temple?lang=eng",
+		"location" :"1211 S Cole Rd Boise ID 83709-1871 United States",
+		"services" :["No clothing rental available", "No cafeteria available"," No patron housing available", "Distribution center nearby"]
+	}
+]

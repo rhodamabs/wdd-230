@@ -1,0 +1,133 @@
+/* 64em is also 1028px (if basefont is 16px) */
+@media only screen and (min-width: 64rem) {
+header, footer, nav, main {
+    width: 1000px;
+    margin: auto;
+}  
+nav ul {
+    padding-left: 2%;
+}
+header h1, header h2 {
+    margin-left: 10px;
+}
+h2 {
+    padding-left: 2%;
+}
+#wrapper {
+    grid-template-columns: 20% 40% 40%; 
+}
+#swrapper{
+    max-width: 1000px;
+    grid-template-columns: 20% 39% 39%;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+#rwrapper {
+    max-width: 1000px;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+
+}
+
+#twrapper {
+    max-width: 1000px;
+    gap: .5rem;
+}
+#swrapper .banner {
+    grid-column: 1/5;
+    grid-row: 1/3;
+}
+#swrapper div {
+    width: 100%;
+}
+#swrapper div img {
+    width: 100%;
+}
+#smart {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    background-color: white;
+    border: 3px rgb(0, 71, 171);
+    margin:.3rem;
+    
+}
+#kitchen{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    background-color: white;
+    margin:.3rem;
+   
+}
+#site { grid-column: 3/4;
+        grid-row: 4/5;
+        background-color: white;
+        margin:.3rem;
+        
+    }
+#breakf {grid-column:1/2 ;grid-row: 5/6;
+    background-color: white;
+    margin:.3rem;
+    }
+ #sitting-area {
+    grid-column: 2/3;
+    grid-row: 5/6;
+    background-color: white;
+    margin:.3rem;
+    
+}
+#fcenter  {
+    grid-column: 3/4;
+    grid-row: 5/6;
+    background-color: white;
+    margin:.3rem;
+}
+#wroom {grid-column:1/2;grid-row: 6/7;
+    background-color: white;
+    margin:.3rem;
+   
+}
+
+#inpool {grid-column:2/3 ;
+    background-color: white;
+    grid-row: 6/7;
+    margin:.3rem;
+}
+#parking {
+    grid-column:3/4 ;
+    grid-row: 6/7;
+    background-color: white;
+    margin:.3rem;
+ 
+}
+#shuttle {
+    grid-column: 1/2;
+    grid-row: 6/7;
+    background-color: white;
+    margin:.3rem;
+ 
+}
+#wrapper aside {
+    grid-column: 1/2;
+    grid-row: 5/8;
+    display: block;
+}
+#banner-image {
+    grid-column: 1/4;grid-row:2/4 }
+    #durban {grid-column: 2/3; grid-row: 5/6;}
+    #jorburg {grid-column: 3/4; grid-row: 5/6;}
+    #ghana {grid-column: 2/3; grid-row: 6/7;}
+    #australia {grid-column: 3/4; grid-row: 6/7;}
+    #georgia {grid-column: 2/3; grid-row: 7/8;}    
+    #boise {grid-column: 3/4; grid-row: 7/8;}
+  
+
+
+
+
+
+
+
+
+
+}

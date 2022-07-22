@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Temple Inns and Suites">
+<meta name="author" content="Rhoda Mabundu">
+<title>Temple Inns and Suites</title>
+<link rel="icon" href="favicon.ico">
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@300&display=swap" rel="stylesheet">
+<!-- STYLE SHEETS -->
+<link href="styles/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="styles/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="styles/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="styles/large.css" rel="stylesheet">
+</head>
+<body>
+        <header>
+            <a href="index.html"><img class="logo" src="images/logo.webp" alt="logo"> </a>
+            <div><h1>Temple Inns and Suites</h1>
+                <h2>With us, you’re home</h2></div>
+                <div id="social">
+                    <div><a class= "facebook" target="_blank" href="https://www.facebook.com/" >
+                        <img class="facebook" src="images/facebook-logo.png" alt="Facebook icon">
+                        </a>
+                        </div>
+                        <div><a class= "linkedin" target="_blank" href="https://www.LinkedIn.com/" >
+                            <img class="linkedin" src="images/linkedin-logo.png" alt="LinkedIn icon"></a></div>
+                    </div>  
+        </header>
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li ><a href="index.html">Home</a></li>
+                <li ><a href="temples.html">Temples</a></li>
+                <li class="active"><a href="reservations.html">Reservations</a></li>
+                <li><a href="services.html">Services</a>
+                    <div class="sub-menu">
+                        <ul>
+                        <li><a href="reception.html">Reception</a></li>
+                        <li><a href="temple-missionary.html">Full-time Temple Missionaries</a> </li>
+                        </ul>
+                    </div>  
+                </li> 
+                        
+            </ul>
+        </nav>
+        <main id="twrapper">
+            <div id="banner-image" class="banner">
+                <h2>Reservation</h2>
+                <picture class="img">
+                    <img src="images/banner-top-large.png" alt="Banner" >
+                  </picture>
+                  <button class="stats">Make your Booking</button>
+            </div>
+            <form method="get" action="thank-you.html">
+                <fieldset id="field">
+                    <legend>Accommodation Reservation</legend>
+                    <label class="reserve-form"> First Name*<input type="text" name="fname" required></label>
+                    <label class="reserve-form"> Last Name*<input type="text" name="lname" required></label>
+                    <label class="reserve-form">Phone* <input type="tel" name="phone" placeholder="12355512354" required></label>
+                    <label class="reserve-form"> Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                    <label class="reserve-form">Country <input type="text" name = "country" placeholder="Zimbabwe"> </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Accommodation Details</legend>
+                    <div>Temple Locations</div>
+                    <select name="subject" id="select">
+                        <option value="">Please Select &#9662</option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        </select>
+                        <label class="reserve-form">Check in Date<input type="date" name="arrival-date" value="date"> </label>
+                        <label class="reserve-form">Check out Date<input type="date" name="departure-date" value="date"> </label>
+                        <label class="reserve-form">Number of People*<input type="text" name="numofpeople" required></label>
+                        <label class="reserve-form">Types of Rooms*<input type="text" name="typesofrooms" required></label>
+                    <div id="desc">Special Considerations/ Comments</div>
+                    <label class="reserve-form"><textarea name="description"  rows="4" cols="50"></textarea></label>
+                    <label ><input type="hidden" name="submissionDate" value="date"> </label>   
+                </fieldset>
+                <input type="submit" value="Submit My Reservation" class="submit">  
+                </form>
+                    <div>
+                        <h2>Services Highlights</h2>
+                        <picture><img src="images/playroom.png" alt="Play Rooms"></picture>
+                        <h3>Details</h3>
+                        <p><span class="infor"></span></p>
+                    </div>
+                    <div> 
+                        <picture><img src="images/changing-room.png" alt="Changing Rooms"></picture>
+                        <h3>Details</h3>
+                        <p><span class="infor"></span></p>
+                    </div>    
+                    </div>
+    
+        </main>
+        <footer>
+            <div><img class="logo" src="images/logo.webp" alt="logo"> </div>
+            <div id="footer-contact"><p>Contact Our Headquarters</p>
+                    <p> 4800 Montgomery Ln #300</p>
+                    <p>Bethesda, MD 20814 </p></a></div>
+            <div><p class="map">
+                <iframe
+                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2297.7856149338436!2d-77.09772048556266!3d38.98325594948547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814%2C%20USA!5e1!3m2!1sen!2szw!4v1658222323288!5m2!1sen!2szw"
+                  width="100" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </p></div>
+            <div id="authorName">&copy; <span id ='theYear'></span>.:|:.Temple Inns and Suites .:|:. Rhoda Mabundu .:|:. 
+                Last Modified:  <span id = 'lu'></span>
+            </div> 
+            <script src="script/navigation.js"></script>
+            <script src="script/weather.js"></script>
+            <script src="script/date.js"></script>
+        </footer>
+    </div>
+</body>
+</html>
