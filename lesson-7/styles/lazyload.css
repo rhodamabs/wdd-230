@@ -1,0 +1,22 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+  
+main {
+    display: grid;
+    grid-template-columns: 1fr; 
+    margin: 0 auto; 
+}
+
+main picture img[data-src] {
+    filter:blur(0.2em);
+    
+}
+
+
+main picture img{
+    filter:blur(0em); 
+    transition: filter 0.5s;  
+}

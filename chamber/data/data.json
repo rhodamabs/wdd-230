@@ -1,0 +1,75 @@
+[
+    {
+        "name" : "Lafarge Cement ",
+        "address" :"Limited Manresa Plant, Arcturus ",
+        "phoneNumber" : "Faith +263 719 552 574 ",
+        "url" : "https://www.lafarge.co.zw/",
+        "membershipLevel" : "Gold",
+        "icon" : "images/directory/lafarge.jpg"
+
+    },
+    {
+        "name" : "Old Mutual ",
+        "address" : "100 The Chase,Mutual Gardens",
+        "phoneNumber" : "+263 242 308 400",
+        "url" : "https://www.oldmutual.co.zw/",
+        "membershipLevel" : "Bronze ",
+        "icon" : "images/directory/oldmutual.png"
+    },
+    {
+        "name" : "Liquid Telecoms ",
+        "address" : "Stand 45 and 47, Piers road Harare",
+        "phoneNumber" : "+263 8677 030 000" ,
+        "url" : "https://zw.liquidhome.tech/",
+        "membershipLevel" : "Silver ",
+        "icon" : "images/directory/liquid.png"
+    },
+    {
+        "name" : "CBZ Bank ",
+        "address" : "5 Campbell Road Pomona Harare",
+        "phoneNumber" : "+263(242) 748050-75 " ,
+        "url" : "https://www.cbz.co.zw/",
+        "membershipLevel" : " NP Membership",
+        "icon" : "images/directory/cbz.jpg"
+    },
+    {
+        "name" : "N Richards Group",
+        "address" : "Stand 533, Cleveland Township",
+        "phoneNumber" : "(024) 2437280" ,
+        "url" : "https://nrichards.co.zw/",
+        "membershipLevel" : "Gold",
+        "icon" : "images/directory/nrichards.png"
+    },
+    {
+        "name" : "Delta Corporation",
+        "address" : "Sable House, Northridge Park",        
+        "phoneNumber" : "+263-242-883865-72" ,
+        "url" : "https://www.delta.co.zw/",
+        "membershipLevel" : "Silver",
+        "icon" : "images/directory/delta.jpg"
+    },
+    {
+        "name" : "Nyaradzo Funeral ",
+        "address" : "Sabi House 18 Park Street Harare",
+        "phoneNumber" : "+263-242-796694-7 " ,
+        "url" : "https://nyaradzo.co.zw/",
+        "membershipLevel" : "Bronze",
+        "icon" : "images/directory/nyaradzo.png"
+    },
+    {
+        "name" : "NMB Bank Limited",
+        "address" : "19207 Liberation, Borrowdale Harare",
+        "phoneNumber" : " 08677004011 " ,
+        "url" : "https://nmbz.co.zw/",
+        "membershipLevel" : "NP Membership",
+        "icon" : "images/directory/nmbbank.png"
+    },
+    {
+        "name" : "Schweppes ",
+        "address" : "67a Woolwich Road, Willowvale ",
+        "phoneNumber" :"+263 242 620 232–6" ,
+        "url" : "https://www.schweppes.co.zw/",
+        "membershipLevel" : "Gold",
+        "icon" : "images/directory/schweppes.png"
+    }
+]

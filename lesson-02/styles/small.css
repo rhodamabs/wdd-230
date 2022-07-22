@@ -1,0 +1,91 @@
+
+* { -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box; box-sizing: border-box;
+  }
+  
+  
+  /* body rules here */
+  body {
+    font-family: 'Open Sans', Roboto Slab;
+    font-size: 16px;
+    background-color: green;
+  }
+  
+  /* header rules here */
+  header {
+    background-color: yellowgreen;
+    text-align: center;
+    padding: 0.2%;
+  }
+  header h1 {
+    font-size: 2.5em;
+    margin-bottom: 0;
+  }
+  header h2 {
+    margin-top: 0.5em;
+    font-size: 1.8em;
+    font-weight: normal;
+  }
+  
+  
+  /* main rules here */
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem 2%;
+    grid-gap: 1em;
+  }
+  
+  main section {
+    background-color: yellowgreen;
+    border-radius: 2em;
+    overflow: hidden;
+  }
+  
+  main section h3 {
+    background-color: white;
+    margin: 0;
+    padding: 1em;
+  }
+  
+  main section div {
+    padding: 1em;
+  }
+  main section div h4 {
+    font-weight: normal;
+  }
+  
+  main section div img {
+    width: 100%;
+    margin-top: 1em;
+    border:2px solid ;
+  }
+  main section a {
+    margin-bottom: 1em;
+  }
+  
+  main section p{
+    text-indent: 1em;
+    padding: 1em;
+  }
+  
+  a {
+    display: block;
+  }
+ 
+  header h1,h2, h4, footer {
+    color:rgb(6, 43, 6);
+  }
+  
+  main a {
+    color:rgb(2, 37, 128)
+  }
+  
+  /* footer rules here */
+  footer {
+    text-align: center;
+    padding: 1rem 2%;
+    background-color:yellowgreen;
+  }
+  
+  

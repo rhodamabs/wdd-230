@@ -1,0 +1,43 @@
+
+caption {
+	color: rgb(80, 13, 239);
+}
+
+body {
+	font-family: "Ubuntu", sans-serif;
+	margin: 0;
+	font-size: 1.3em;
+	background-color: rgb(80, 13, 239, 0.1);;
+  }
+  table {
+	background-color: rgb(231, 240, 237);
+	margin: 0 auto;
+	margin-top: 5rem;
+	width: 50%;
+	max-width: 30rem;
+	box-shadow: 20px 10px 20px rgb(80, 13, 239, 0.3);
+	border-spacing: 0;
+  }
+
+  .header{
+	background-color: rgb(80, 13, 239, 0.3);
+  }
+  th,
+  td {
+	padding: 0.5em;
+	text-align: center;
+	border: 1px solid lightgray;
+  }
+
+  .tBody:nth-child(even) {
+	background-color:rgb(80, 13, 239, 0.1);
+  }
+  .tbody, .headerrow {
+	background-color: rgb(80, 13, 239, 0.5);
+	color: white;
+  }
+  .tfooter {
+	font-size: 1rem;
+	background-color: rgb(80, 13, 239, 0.3);
+	color: black;
+  }

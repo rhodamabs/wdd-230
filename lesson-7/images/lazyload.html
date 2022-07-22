@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="styles/lazyload.css">
+</head>
+<body>
+  <main id="container">
+    <h1>Progressive Loading of Images</h1>
+    <div> 
+      <picture><img src='images/img.png' data-src='images/pallet.png'alt='Pallet'></picture>
+      <picture><img src='images/img.png' data-src='images/pallet1.jpg' alt='Pallet1'></picture>
+      <picture><img src='images/img.png' data-src='images/pallet2.jpg' alt='Pallet2'></picture>
+      <picture><img src='images/img.png' data-src='images/pallet3.jpg' alt='Pallet3'></picture>
+      <picture><img src='images/img.png' data-src='images/pallet4.jpg' alt='Pallet4'></picture>
+      <picture><img src='images/img.png' data-src='images/heroSrc.jpg' alt='heroSrc'></picture>
+    </div>
+  </main>
+</body>
+<script src="scripts/lazyload.js"></script>  
+</html>
