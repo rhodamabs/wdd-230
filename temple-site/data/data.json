@@ -7,7 +7,7 @@
 		"url" :"https://www.churchofjesuschrist.org/temples/details/accra-ghana-temple?lang=eng",
 		"location" :"Accra Ghana Temple Complex 57 Independence Ave, North Ridge P.M.B. CT 209, Cantonments, Accra, Ghana",
 		"services":["No clothing rental available", "No cafeteria available", "Patron housing available ","Distribution center nearby"],
-		"templeClosure":["Saturday, 20 August 2022","Tuesday, 13 September 2022 - Monday, 26 September 2022","Sunday, 25 December 2022 - Monday, 26 December 2022"]
+		"templeClosure":["Saturday 20 August 2022","Tuesday 13 September 2022 - Monday 26 September 2022","Sunday 25 December 2022 - Monday 26 December 2022"]
 	},
 	{
 		"image": "images/australia-temple.png",
@@ -17,7 +17,7 @@
 		"url" :"https://www.churchofjesuschrist.org/temples/details/adelaide-australia-temple?lang=eng",
 		"location" :"53-59 Lower Portrush Rd Marden SA 5070 Australia",
 		"services": ["No clothing rental available","No cafeteria available","No patron housing available","No distribution center nearby"],
-		"templeClosure":["Saturday, 8 October 2022", "Monday, 10 October 2022 - Monday, 24 October 2022","Saturday, 24 December 2022","Saturday, 31 December 2022"]
+		"templeClosure":["Saturday 8 October 2022", "Monday 10 October 2022 - Monday 24 October 2022","Saturday 24 December 2022","Saturday 31 December 2022"]
 	},
 	{
 		"image": "images/joburg_temple.png",
@@ -27,7 +27,7 @@
 		"url" :"https://www.churchofjesuschrist.org/temples/details/johannesburg-south-africa-temple?lang=eng",
 		"location" :"7 Jubilee Rd Parktown Johannesburg, 2193, South Africa",
 		"services": ["Clothing rental available","No cafeteria available","Patron housing available","Distribution center nearby"],
-		"templeClosure":["Tuesday, 9 August 2022","Monday, 15 August 2022 - Monday, 14 November 2022","Friday, 16 December 2022","Saturday, 24 December 2022","Saturday, 31 December 2022"]
+		"templeClosure":["Tuesday 9 August 2022","Monday 15 August 2022 - Monday 14 November 2022","Friday 16 December 2022","Saturday 24 December 2022","Saturday 31 December 2022"]
 	},
 	{
 		"image": "images/durban-temple.png",
@@ -37,7 +37,7 @@
 		"url" :"https://www.churchofjesuschrist.org/temples/details/durban-south-africa-temple?lang=eng",
 		"location" :"2 Izinga Drive Izinga Ridge Umhlanga, KwaZulu-Natal, 4021, South Africa",
 		"services": ["No clothing rental available"," No cafeteria available", "Patron housing available","Distribution center nearby"],
-		"templeClosure":["Monday, 1 August 2022 - Monday, 15 August 2022","Saturday, 24 September 2022","Friday, 16 December 2022","Saturday, 24 December 2022","Saturday, 31 December 2022"]
+		"templeClosure":["Monday 1 August 2022 - Monday 15 August 2022","Saturday, 24 September 2022","Friday 16 December 2022","Saturday 24 December 2022","Saturday 31 December 2022"]
 		
 	},
 	{  	
@@ -48,7 +48,7 @@
 		"url" :"https://www.churchofjesuschrist.org/temples/details/atlanta-georgia-temple?lang=eng",
 		"location" :"6450 Barfield Rd NE Sandy Springs GA 30328-4283United States",
 		"services" :["No clothing rental available"," No cafeteria available"," Patron housing available", "Distribution center nearby"],
-		"templeClosure":"Monday, 26 September 2022 - Monday, 10 October 2022"
+		"templeClosure":"Monday 26 September 2022 - Monday 10 October 2022"
 	},
 	{
 		 	
@@ -59,6 +59,6 @@
 		"url" :"https://www.churchofjesuschrist.org/temples/details/boise-idaho-temple?lang=eng",
 		"location" :"1211 S Cole Rd Boise ID 83709-1871 United States",
 		"services" :["No clothing rental available", "No cafeteria available"," No patron housing available", "Distribution center nearby"],
-		"templeClosure":["Saturday, 1 October 2022","Monday, 10 October 2022 - Monday, 24 October 2022","Wednesday, 23 November 2022 (Limited Operations)","Thursday, 24 November 2022","Saturday, 24 December 2022","Saturday, 31 December 2022 (Limited Operations)"]
+		"templeClosure":["Saturday 1 October 2022","Monday 10 October 2022 - Monday 24 October 2022","Wednesday, 23 November 2022 (Limited Operations)","Thursday 24 November 2022","Saturday 24 December 2022","Saturday 31 December 2022 (Limited Operations)"]
 	}
 ]
