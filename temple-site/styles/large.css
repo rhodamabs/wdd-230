@@ -30,7 +30,7 @@ h2 {
 
 }
 
-#twrapper {
+.twrapper {
     max-width: 1000px;
     gap: .5rem;
 }

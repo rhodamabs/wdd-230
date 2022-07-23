@@ -24,6 +24,7 @@ fetch(requestURL)
         let serve = document.createElement('p');
         let closeInfor = document.createElement('p');    
         // set class attribute to the container
+        wrapper.classList.add('twrapper')
         card.classList.add('cards');
         tpicture.classList.add('templeImg');
 

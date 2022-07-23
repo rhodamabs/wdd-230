@@ -20,11 +20,11 @@
         padding: .5rem 1rem;
         border: none;
         border-right: 1px solid rgba(45, 10, 244, 0.3);}
-    #wrapper, #twrapper,  #swrapper,#rwrapper {
+    #wrapper, .twrapper,  #swrapper,#rwrapper {
         grid-template-columns: 50% 50%;
         gap: 3px;
     }
-    #twrapper .banner {
+    .twrapper .banner {
         grid-column: 1/3;
         grid-row: 1/3;
     }

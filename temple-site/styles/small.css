@@ -120,7 +120,7 @@ main div h2 {
     margin: 10px;
     background-color: lightskyblue;
    }
-#wrapper, #twrapper,#swrapper,#rwrapper {
+#wrapper, .twrapper,#swrapper,#rwrapper {
     display: grid;
     grid-template-columns: 1fr;
 }
