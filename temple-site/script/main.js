@@ -6,7 +6,7 @@ fetch(requestURL)
     return response.json();
 })
     .then(function (jsonObject) {
-        const temples = jsonObject['temples'];
+        const temples = jsonObject;
         console.log(temples);
        temples.forEach(displayInfor);
     });
