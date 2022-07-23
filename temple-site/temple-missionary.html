@@ -56,32 +56,46 @@
             <div id="banner-image" class="banner">
                 <h2>Fill-time Temple Missionaries</h2>
                 <picture class="img">
-                    <img src="images/banner-bottom-large.png" alt="Banner" >
+                    <img src="images/banner-bottom-large.png" alt="Banner" loading="lazy">
                   </picture>
                   <button class="stats">Make your Booking</button>
             </div>
-                <div>
-                    <picture><img src="images/bedroom.png" alt="Bedrooms"></picture>
+                <div id="bedroom">
+                    <picture><img src="images/bedroom.png" alt="Bedrooms" loading="lazy"></picture>
                 </div>
-                <div>
-                    <picture><img src="images/kitchen.png" alt="Kitchen"></picture>
+                <div id="kitchenn">
+                    <picture><img src="images/kitchen.png" alt="Kitchen" loading="lazy"></picture>
                 </div>
-                <div><picture><img src="images/banner-bottom-medium.png" alt="Kitchenette"></picture> </div>
-                <div>
-                    <picture><img src="images/showers.png" alt="Shower"></picture>
+                <div id="kitchenete">
+                    <picture><img src="images/banner-bottom-medium.png" alt="Kitchenette" loading="lazy"></picture> 
                 </div>
-                <div>
-                    <picture><img src="images/bathroom.png" alt="Bathroom"></picture>
+                <div id="showers">
+                    <picture><img src="images/showers.png" alt="Shower" loading="lazy"></picture>
                 </div>
-                <div>
-                    <picture><img src="images/workoutroom.png" alt="Workour Room"></picture>
+                <div id="bathroom">
+                    <picture><img src="images/bathroom.png" alt="Bathroom" loading="lazy"></picture>
                 </div>
+                <div id="workout">
+                    <picture><img src="images/workoutroom.png" alt="Workour Room" loading="lazy"></picture>
+                </div>
+                <div id="simple-form">
+                <form method="get" action="thank-you.html">
+                    <fieldset id="field">
+                        <legend>Accommodation Reservation</legend>
+                        <label class="reserve-form"> Full Name*<input type="text" name="name" required placeholder="Rhoda Mabundu"></label>
+                        <label class="reserve-form"> Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>   
+                    </fieldset>
+                    <div id="desc" >Comments</div>
+                    <label class="reserve-form"><textarea name="description"  rows="4" cols="50"></textarea></label>
+                    <label ><input type="hidden" name="submissionDate" value="date"> </label>   
+                <input type="submit" value="Contact Us" class="submit">  
+                </form></div>
         </main>
         <footer>
             <div><img class="logo" src="images/logo.webp" alt="logo"> </div>
             <div id="footer-contact"><p>Contact Our Headquarters</p>
                     <p> 4800 Montgomery Ln #300</p>
-                    <p>Bethesda, MD 20814 </p></a></div>
+                    <p>Bethesda, MD 20814 </p></div>
             <div><p class="map">
                 <iframe
                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2297.7856149338436!2d-77.09772048556266!3d38.98325594948547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814%2C%20USA!5e1!3m2!1sen!2szw!4v1658222323288!5m2!1sen!2szw"

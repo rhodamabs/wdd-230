@@ -41,8 +41,17 @@ header h1, header h2 {
 nav {
     background-color: white;
 }
+nav::after {
+    content: "";
+    clear: both;
+    display: block;
+}
 nav ul {
     list-style: none;
+}
+nav ul li {
+    position: relative;
+    float: left;
 }
 nav ul li a {
     display: block;
@@ -58,24 +67,39 @@ nav ul li.active a {
     color: white;
     border-radius: 3px;
 }
+
+nav ul ul {
+    position: absolute;
+    padding: 0;
+    min-width: 160px;
+    background-color: white;
+    top: 100%;
+    left: 0;
+}
 nav ul li a:hover {
+    display: block;
     background-color: darkblue;
     color: white;
     border-radius: 3px;
 }
-.sub-menu {
-    display: none;
-}
-nav ul li a:hover .sub-menu {
-    display: block;
-    position: absolute;
+nav ul li:hover > ul{
     background-color: darkblue;
-    margin-top: 15px;
-    margin-left: -15px;
+    color: white;
+    border-radius: 3px;
+}
+nav ul  ul li:hover a{
+    background-color: darkblue;
+    color: white;
+   
+}
+nav ul  ul li  {
+    position: relative;
 }
  p {
     padding:  0 20px 0 20px;
+    
 }
+
  #banner-image{
     margin: 10px auto;
 	position: relative;
@@ -109,7 +133,7 @@ border: 0;
     width: 100%;
     border-radius: 0; 
 } 
-main div h2 {
+main div h2, main div h3 {
     color: white;
     text-align: center;
     padding: 1.5rem;
@@ -118,7 +142,7 @@ main div h2 {
     border: 3px solid white;
     border-radius: 20px;
     background-color: lightskyblue;
-    padding: .2rem;
+    padding: 0.2rem;
    }
 #wrapper, #twrapper,#swrapper,#rwrapper, main div.imgWrapper {
     display: grid;
@@ -143,6 +167,7 @@ padding: 10px;
     border: 5px solid rgb(0, 71, 171);
     border-radius: 10px;
     padding: 18px;
+    margin-left: 10px;
 }
 main div h2 {
     padding-left: 2%;
@@ -153,7 +178,7 @@ aside {
 
 #weather,#side-center,#side-service,#contact-details {
     background-color: white;
-    margin:.2.5rem;
+    margin:2rem .5rem;
     padding: 2rem 0 2rem;
 }
 #weather h2 {
@@ -168,6 +193,10 @@ img {
  border: 5px solid white;
  border-radius: 25px;
 }
+img:hover{
+    opacity: .5;
+    transition: .9s;
+  }
 .weather-img {
     background-color: lightskyblue;
     border-radius: 20px;
@@ -201,7 +230,7 @@ form label.reserve-form, form div {
     color: rgb(0, 71, 171,05);
     font-size: 1rem;
 }
-form label.reserve-form input, form label.reserve-form select, #select{
+form label.reserve-form input, form label.reserve-form select, #select {
     -webkit-appearance:none;
     display: block;
     font-size: 1rem;
@@ -221,6 +250,7 @@ form input.submit {
     padding: .75rem 1.5rem;
     margin: 0 0 2rem 2%;
     width:96%;
+    max-width: 20rem;
 
 }
 form label.reserve-form input:required {
@@ -229,7 +259,7 @@ form label.reserve-form input:required {
 form label.reserve-form input:valid {
     border-left:green solid 6px;
 }
-form textarea {
+form textarea  {
     border: 0;
     padding: 2rem .7rem;
     box-sizing: border-box;
