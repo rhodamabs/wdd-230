@@ -23,3 +23,4 @@ fetch(apiURL)
     captionDesc.textContent = newDesc;
     console.log(newDesc);
 });
+

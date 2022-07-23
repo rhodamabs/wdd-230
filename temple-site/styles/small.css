@@ -97,15 +97,15 @@ nav ul li a:hover .sub-menu {
     text-align: center;
 }
 #welcome{color:white}
-.img, .templeImg {
+.img {
     width: 100%;
     border-radius: 200px;
 }
-.banner img { 
+.banner img, .templeImg { 
 padding: 0;
 border: 0;
 }
- main picture img, .cards {
+ main picture img {
     width: 100%;
     border-radius: 0; 
 } 
@@ -117,16 +117,32 @@ main div h2 {
 #durban, #jorburg, #ghana, #australia, #georgia,#boise {
     border: 3px solid white;
     border-radius: 20px;
-    margin: 10px;
     background-color: lightskyblue;
+    padding: .2rem;
    }
 #wrapper, #twrapper,#swrapper,#rwrapper, main div.imgWrapper {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 10px;
+    gap: 20px;
+}
+.cards {
+    border: 5px solid rgb(0, 71, 171);
+    background-color: white;
+    padding: 25px;
 }
 main div.imgWrapper {
     width: 100%;
+}
+.templeImg {
+   width: 100%;
+padding: 10px;
+
+}
+.icons {
+    background-color: white;
+    border: 5px solid rgb(0, 71, 171);
+    border-radius: 10px;
+    padding: 18px;
 }
 main div h2 {
     padding-left: 2%;
@@ -137,7 +153,7 @@ aside {
 
 #weather,#side-center,#side-service,#contact-details {
     background-color: white;
-    margin:.3rem;
+    margin:.2.5rem;
     padding: 2rem 0 2rem;
 }
 #weather h2 {

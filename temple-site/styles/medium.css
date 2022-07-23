@@ -57,6 +57,13 @@
     #australia {grid-column: 2/3; grid-row: 6/7;}
     #georgia {grid-column: 1/2; grid-row: 7/8;}    
     #boise {grid-column: 2/3; grid-row: 7/8;}
+    #weatherContainer {
+        grid-column: 1/3; 
+        grid-row: 8/9;
+        display:flex;
+        gap: 3rem;
+     }
+  
     form {
         grid-column: 1/2;
         grid-row: 3/5;
