@@ -1,5 +1,5 @@
 const requestURL = "https://rhodamabs.github.io/wdd-230/temple-site/data/data.json"
-const cards = document.querySelector('#temples');
+let twrapper = document.querySelector('#temples');
 
 fetch(requestURL)
 .then (function (response) {
@@ -14,7 +14,6 @@ fetch(requestURL)
 
     function displayInfor(temple) {
         // Create elements to add to the document
-        let wrapper = document.createElement('div');
         let card = document.createElement('section');
         let tname = document.createElement('h2');
         let tpicture = document.createElement('img');
@@ -24,7 +23,7 @@ fetch(requestURL)
         let serve = document.createElement('p');
         let closeInfor = document.createElement('p');    
         // set class attribute to the container
-        wrapper.classList.add('twrapper')
+        twrapper.classList.add('imgWrapper');
         card.classList.add('cards');
         tpicture.classList.add('templeImg');
 
@@ -43,7 +42,7 @@ fetch(requestURL)
         tpicture.setAttribute('loading', 'lazy');
       
         // Add/append the section(card) with the h2 element
-        wrapper.appendChild(card);
+        twrapper.appendChild(card);
         card.appendChild(tpicture);
         card.appendChild(tname);
         card.appendChild(dedication);

@@ -17,21 +17,21 @@ h2 {
     grid-template-columns: 20% 40% 40%; 
 }
 #swrapper{
-    max-width: 1000px;
+
     grid-template-columns: 20% 39% 39%;
     grid-template-rows: repeat(2, 1fr);
     gap: 10px;
 }
 #rwrapper {
-    max-width: 1000px;
     grid-template-columns: 35% 65%;
     grid-template-rows: repeat(2, 1fr);
     gap: 10px;
 
 }
-
-.twrapper {
+#temples {
     max-width: 1000px;
+}
+#twrapper {
     gap: .5rem;
 }
 #swrapper .banner {
