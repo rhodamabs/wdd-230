@@ -1,6 +1,6 @@
 /* 64em is also 1028px (if basefont is 16px) */
 @media only screen and (min-width: 64rem) {
-header, footer, nav, main {
+header, footer, nav, main, main div.imgWrapper {
     width: 1000px;
     margin: auto;
 }  
@@ -28,8 +28,8 @@ h2 {
     gap: 10px;
 
 }
-#temples {
-    max-width: 1000px;
+main div.imgWrapper{
+   grid-template-columns: 33% 33% 33%;
 }
 #twrapper {
     gap: .5rem;

@@ -14,7 +14,7 @@ fetch(requestURL)
 
     function displayInfor(temple) {
         // Create elements to add to the document
-        let card = document.createElement('section');
+        let card = document.createElement('div');
         let tname = document.createElement('h2');
         let tpicture = document.createElement('img');
         let telphone = document.createElement('p');
