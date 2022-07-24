@@ -1,6 +1,7 @@
 const requestURL = "https://rhodamabs.github.io/wdd-230/temple-site/data/data.json"
 let twrapper = document.querySelector('#temples');
 
+
 fetch(requestURL)
 .then (function (response) {
     return response.json();
@@ -21,11 +22,15 @@ fetch(requestURL)
         let dedication = document.createElement('p');
         let place = document.createElement('p');
         let serve = document.createElement('p');
-        let closeInfor = document.createElement('p');    
+        let closeInfor = document.createElement('p');
+        let button  = document.createElement('button');
+        let liked = document.createElement('span');
         // set class attribute to the container
         twrapper.classList.add('imgWrapper');
         card.classList.add('cards');
         tpicture.classList.add('templeImg');
+        button.classList.add('like')
+        liked.classList.add('liked');
 
       
         // Change the textContent property of the h2 element to contain the prophet's full name
@@ -35,6 +40,7 @@ fetch(requestURL)
         dedication.textContent = `Dedication: ${temple.dedicationDate}`;
         serve.textContent = `Services: ${temple.services}`;
         closeInfor.textContent = `Temple Closure Infor: ${temple.templeClosure}`;
+        button.innerHTML = 'Like Button';
         
         // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
         tpicture.setAttribute('src', temple.image);
@@ -50,6 +56,7 @@ fetch(requestURL)
         card.appendChild(place);
         card.appendChild(serve);
         card.appendChild(closeInfor);
+        card.appendChild(button)
         
        
       
@@ -58,4 +65,4 @@ fetch(requestURL)
       }
     
 
-  
+     
